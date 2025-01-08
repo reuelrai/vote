@@ -8,7 +8,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Vote for Your Favorite Person</h1>
+    <div id="voteForm">
+        <h2>Vote for Your Favourite Person</h2>
+        <form id="voteFormContent">
+            <label for="voteName">Your Name:</label>
+            <input type="text" id="voteName" name="voteName" required>
+            <label for="votePerson">Choose a person to vote for:</label>
+            <select id="votePerson" name="votePerson" required>
+                <option value="person1">Person 1</option>
+                <option value="person2">Person 2</option>
+                <option value="person3">Person 3</option>
+            </select>
+            <button type="submit">Vote</button>
+        </form>
+    </div>
     <form id="voteForm">
         <label for="name">Your Name:</label>
         <input type="text" id="name" name="name" required>
