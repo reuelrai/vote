@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
     <form id="voteForm">
-        <h2>Vote for Your Favourite Person</h2>
+        <h1>Vote for Your Favorite Person</h1>
         <label for="name">Your Name:</label>
         <input type="text" id="name" name="name" required>
+        
         <label for="vote">Vote:</label>
-        <input type="text" id="vote" name="vote" required>
+        <select id="vote" name="vote" required>
+            <option value="">Select a person</option>
+        </select>
+
         <button type="submit">Submit Vote</button>
     </form>
 
