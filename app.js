@@ -14,6 +14,13 @@ names.forEach(name => {
     option.textContent = name;
     voteSelect.appendChild(option);
 });
+const voteSelect = document.getElementById('name');
+names.forEach(name => {
+    const option = document.createElement('option');
+    option.value = name;
+    option.textContent = name;
+    voteSelect.appendChild(option);
+});
 
 document.getElementById('voteForm').addEventListener('submit', async (event) => {
     event.preventDefault();
