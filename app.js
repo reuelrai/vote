@@ -15,6 +15,18 @@ names.forEach(name => {
     voteSelect.appendChild(option);
 });
 
+const name = ["Aayush Giri", "Aayusha Shresthacharya Baniya", "Asmita Silwal", "Avishek Sigel", "Bhumi Pradhan", "Bipin Dawadi", "Jenisha Shrestha", "Mandip Shrestha", "Muskan Rajbanshi", "Nikita Chaudhary", "Rakshya Shrestha", "Rijan Rijal", "Ritesh Chaudhary", "Reuel Rai", "Sakshyam Maharjan", "Samyog Sapkota", "Sandeep Lamichhane", "Samyog Sapkota", "Sandeep Lamichhane", "Shristi Budha Magar", "Srestaa Shrestha", "Sudip Bhandari", "Umang Magar"];
+
+// Populate the dropdown dynamically
+const voteSelec = document.getElementById('name');
+names.forEach(name => {
+    const option = document.createElement('option');
+    option.value = name;
+    option.textContent = name;
+    voteSelec.appendChild(option);
+});
+
+
 document.getElementById('voteForm').addEventListener('submit', async (event) => {
     event.preventDefault();
 
