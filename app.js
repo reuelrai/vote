@@ -4,8 +4,7 @@ const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS
 const supabaseClient = supabase.createClient(supabaseUrl, supabaseKey);
 
 // Predefined list of names
-const names = ["Aayush Giri", "Aayusha Shresthacharya Baniya", "Asmita Silwal", "Avishek Sigel", "Bhumi Pradhan", "Bipin Dawadi", "Jenisha Shrestha", "Mandip Shrestha", "Muskan Rajbanshi", "Nikita Chaudhary", "Rakshya Shrestha", "Rijan Rijal", "Ritesh Chaudhary", "Reuel Rai", "Sakshyam Maharjan", "Samyog Sapkota", "Sandeep Lamichhane", "Samyog Sapkota", "Sandeep Lamichhane", "Shristi Budha Magar", "Srestaa Shrestha", "Sudip Bhandari", "Umang Magar"];
-
+const names = ["Aayush Giri", "Aayusha Shresthacharya Baniya", "Asmita Silwal", "Avishek Sigel", "Bhumi Pradhan", "Bipin Dawadi", "Jenisha Shrestha", "Mandip Shrestha", "Muskan Rajbanshi", "Nikita Chaudhary", "Rakshya Shrestha", "Rijan Rijal", "Ritesh Chaudhary", "Reuel Rai", "Sakshyam Maharjan", "Samyog Sapkota", "Sandeep Lamichhane", "Samyog Sapkota", "Sandeep Lamichhane", "Shristi Budha Magar", "Srestaa Shrestha", "Sudip Bhandari", "Umang Magar", "Aakriti Ghimire", "Aastha Bhantana", "Biraj Baharjan", "Chadani Poddar", "Harish Chaisir", "Manjil Aryal", "Norzin Yonjan", "Pramit Adhikari", "Reeba Shrestha", "Reena Khadka", "Robana Kumari Shrestha", "Rubika Dongol", "Saksham Jonchhe", "Sakshi Upadhyay", "Samipya Acharya", "Shreeshma Tamrakar", "Unish Maharjan"];
 // Populate the dropdown dynamically
 const voteSelect = document.getElementById('vote');
 names.forEach(name => {
