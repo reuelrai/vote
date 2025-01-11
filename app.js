@@ -14,7 +14,7 @@ names.forEach(name => {
     voteSelect.appendChild(option);
 });
 
-const name = ["Aayush Giri", "Aayusha Shresthacharya Baniya", "Asmita Silwal", "Avishek Sigel", "Bhumi Pradhan", "Bipin Dawadi", "Jenisha Shrestha", "Mandip Shrestha", "Muskan Rajbanshi", "Nikita Chaudhary", "Rakshya Shrestha", "Rijan Rijal", "Ritesh Chaudhary", "Reuel Rai", "Sakshyam Maharjan", "Samyog Sapkota", "Sandeep Lamichhane", "Samyog Sapkota", "Sandeep Lamichhane", "Shristi Budha Magar", "Srestaa Shrestha", "Sudip Bhandari", "Umang Magar"];
+const name = ["Aayush Giri", "Aayusha Shresthacharya Baniya", "Asmita Silwal", "Avishek Sigel", "Bhumi Pradhan", "Bipin Dawadi", "Jenisha Shrestha", "Mandip Shrestha", "Muskan Rajbanshi", "Nikita Chaudhary", "Rakshya Shrestha", "Rijan Rijal", "Ritesh Chaudhary", "Reuel Rai", "Sakshyam Maharjan", "Samyog Sapkota", "Sandeep Lamichhane", "Samyog Sapkota", "Sandeep Lamichhane", "Shristi Budha Magar", "Srestaa Shrestha", "Sudip Bhandari", "Umang Magar", "Aakriti Ghimire", "Aastha Bhantana", "Biraj Baharjan", "Chadani Poddar", "Harish Chaisir", "Manjil Aryal", "Norzin Yonjan", "Pramit Adhikari", "Reeba Shrestha", "Reena Khadka", "Robana Kumari Shrestha", "Rubika Dongol", "Saksham Jonchhe", "Sakshi Upadhyay", "Samipya Acharya", "Shreeshma Tamrakar", "Unish Maharjan"];
 
 // Populate the dropdown dynamically
 const voteSelec = document.getElementById('name');
